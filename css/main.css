@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: rgba(78, 148, 144, 0.712);
+}
+.calc {
+    background: rgb(17, 38, 53);
+    padding: 20px;
+}
+.calc-screen {
+    height: 75px;
+}
+.calc-screen input {
+    background: rgb(22, 46, 63);
+    color: white;
+    outline: 0;
+    padding: 15px;
+    font-size: 29px;
+}
+.calc-body .btn{
+    color: white;
+    box-shadow: -8px -8px 15px 0px rgba(0, 0, 0, 0.2) , 1px 1px 15px 0px rgba(255, 255, 255, 0.1);
+}
+.calc-body .btn:hover{
+    background: rgba(78, 148, 144, 0.712);
+}

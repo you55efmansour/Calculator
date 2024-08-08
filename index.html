@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <div class="container vh-100 d-flex justify-content-center align-items-center ">
+        <div class="calc rounded">
+            <form>
+                <div class="calc-screen">
+                    <input type="text" autofocus class="border-0 d-flex align-items-center h-100 rounded w-100" id="screen">
+                </div>
+                <div class="calc-body mt-4">
+                    <div class="row gap-4 w-100 ms-0 justify-content-center">
+                        <div id="d-all" class="btn col-2 text-danger">AC</div>
+                        <div id="delete" class="btn col-2 text-danger">DE</div>
+                        <div class="btn num col-2">.</div>
+                        <div class="btn num col-2">/</div>
+                    </div>
+                    <div class="row gap-4 mt-3 w-100 ms-0 justify-content-center">
+                        <div class="btn num col-2">7</div>
+                        <div class="btn num col-2">8</div>
+                        <div class="btn num col-2">9</div>
+                        <div class="btn num col-2">*</div>
+                    </div>
+                    <div class="row gap-4 mt-3 w-100 ms-0 justify-content-center">
+                        <div class="btn num col-2">4</div>
+                        <div class="btn num col-2">5</div>
+                        <div class="btn num col-2">6</div>
+                        <div class="btn num col-2">-</div>
+                    </div>
+                    <div class="row gap-4 mt-3 w-100 ms-0 justify-content-center">
+                        <div class="btn num col-2">1</div>
+                        <div class="btn num col-2">2</div>
+                        <div class="btn num col-2">3</div>
+                        <div class="btn num col-2">+</div>
+                    </div>
+                    <div class="row gap-4 mt-3 w-100 ms-0 justify-content-center">
+                        <div class="btn num col-2">00</div>
+                        <div class="btn num col-2">0</div>
+                        <div id="eq" class="btn col-5 bg-info">=</div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="./js/main.js"></script>
+</html>
